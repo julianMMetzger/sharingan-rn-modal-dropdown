@@ -492,6 +492,7 @@ const MultiselectDropdown: React.FC<IMultiselectDropdownProps> = props => {
                 initialNumToRender={25}
                 maxToRenderPerBatch={25}
                 persistentScrollbar
+                keyboardShouldPersistTaps={"handled"}
                 scrollEnabled={!showLoader}
                 ListHeaderComponent={
                   enableSearch ? (
